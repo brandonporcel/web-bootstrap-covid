@@ -1,0 +1,49 @@
+/* div[class|="col"]{
+    border: 1px solid #fff;
+} */
+nav{
+    background:#30336b69;
+    color: white;
+}
+#nav{
+    background: url(img/virus-bg.jpg)no-repeat center fixed; /* el center idk que hace pero el fixed le da un toque piola,maybe */
+    height: 660px; /*     height: 90vh; */
+    background-size: cover;
+    color: #fff;
+}
+.primer-col{
+    height: 660px;
+}
+.icon-prevention{
+    width: 40px;
+}
+.symptoms-section{
+    border: .1px solid rgba(0, 0, 0, 0.103);
+    -webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+}
+.symptoms-items{
+    display: inline-flex;
+}
+
+.symptoms-image{
+    width: 100px;
+}
+
+.icono-mas{
+    margin: 40px 10px;
+    margin-right: 90px;
+    width: 30px;
+    height: 30px;
+}
+.form-section{
+    background:url(img/numeros-bg.jpg)no-repeat;
+    height: 625px;
+    background-size: cover;
+}
+.background-overlay{
+    background: rgba(0,0,0,0.75);
+    background-size: cover;
+    height: 625px;
+}
